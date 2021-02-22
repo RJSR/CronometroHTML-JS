@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronómetro JS</title>
+    <link rel="stylesheet" href="crstyle.css">
+    
+</head>
+<body>
+    <!-- Aplicación para mostrar un cronómetro -->
+
+    <div id="Titulo">
+        <h3 >Cronómetro</h3>
+    </div>
+    <!-- División que contiene el cronómetro -->
+    <div id="stopwatch">
+        <div class="circle">
+            <span id="time">00:00:00</span>
+    </div>
+    <!-- Divisón para mostrar el tiempo en el que se detuvo -->
+    <div id="resultado">Detenido en: 00:00:00</div>
+
+    <!-- División que contiene los botones -->
+    <div id="boton">
+        <ul id="buttons">
+        <li><button onclick="iniciarCrono()">Start</button></li>
+        <li><button onclick="detenerCrono()">Stop</button></li>
+        <li><button onclick="resetTiempo()">Reset</button></li>
+    </ul></div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+/* Estilo general para el documento */
+body {
+    background: #202020;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo del título */
+#Titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 38px;
+
+    font-family: Tahoma,sans-serif,monospace;
+    color: #e45826;
+    text-shadow: 2px 2px 5px #e45826;
+    letter-spacing: 4px;
+
+}
+
+/* CRONÓMETRO */
+
+/* Estilo para el cronómetro */
+#stopwatch {
+    margin: auto;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 20px;
+    font-size: 80px;
+
+}
+
+/* Estilo para crear el marco circular */
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2px;
+  
+    height: 315px;
+    width: 315px;
+  
+    border: 2px solid;
+    border-radius: 50%;
+    text-shadow: 2px 3px 4px #fff;
+}
+
+/* Estilo para el resultado */
+#resultado{
+    font-size: 19px;
+}
+
+/* BOTONES */
+
+/* Estilo para el espacio entre los botones */
+#controles{
+    display: flex;
+    justify-content: space-between;
+
+    width: 187px;
+}
+
+/* Estilo para el grupo de botones */
+#buttons {    
+    position: absolute;
+    top: 75%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
+
+/* Estilo para cada botón */
+button {
+    width: 120px;
+    padding: 10px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: #202020;
+    border: 0;
+}
